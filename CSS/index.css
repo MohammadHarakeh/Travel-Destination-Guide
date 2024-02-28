@@ -67,3 +67,32 @@ header {
   left: auto;
   color: black;
 }
+
+.destinations-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.destination-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  margin-top: 20px;
+
+  width: 20%;
+}
+
+.destination-card img {
+  width: 80%;
+  height: 40vh;
+  background-color: green;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.destination-card p {
+  position: absolute;
+}
