@@ -47,6 +47,40 @@ header {
   width: auto;
 }
 
+.profile-picture {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-picture img {
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.information {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  font-size: 30px;
+  margin-left: 40%;
+  gap: 10px;
+}
+
+.information input {
+  width: 35%;
+  height: 20vh;
+}
+
+.bio {
+  background-color: rgb(160, 160, 160);
+  width: 35%;
+  height: auto;
+  padding: 1%;
+  text-align: start;
+  border-radius: 5px;
+}
+
 footer {
   display: flex;
   align-items: center;
