@@ -68,6 +68,12 @@ header {
   color: black;
 }
 
+.destination-title {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
 .destinations-wrapper {
   display: flex;
   justify-content: center;
@@ -87,7 +93,7 @@ header {
 
 .destination-card img {
   width: 80%;
-  height: 40vh;
+  height: 30vh;
   background-color: green;
   border: 1px solid black;
   border-radius: 10px;
@@ -95,4 +101,6 @@ header {
 
 .destination-card p {
   position: absolute;
+  padding-bottom: 10px;
+  font-style: italic;
 }
