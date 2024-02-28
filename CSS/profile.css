@@ -28,6 +28,14 @@ header {
   padding: 1% 2%;
 }
 
+.header-items h3 {
+  padding: 10px;
+}
+
+.header-items h3:hover {
+  background-color: #097cff;
+}
+
 .profile {
   display: flex;
   justify-content: end;
@@ -47,13 +55,17 @@ header {
   width: auto;
 }
 
+i {
+  padding: 10px;
+}
+
 .profile-picture {
   display: flex;
   justify-content: center;
 }
 
 .profile-picture img {
-  width: 30%;
+  width: 25%;
   height: auto;
   border-radius: 50%;
 }
@@ -62,8 +74,8 @@ header {
   display: flex;
   width: 100%;
   justify-content: start;
-  font-size: 30px;
-  margin-left: 40%;
+  font-size: 25px;
+  padding-left: 40%;
   gap: 10px;
 }
 
@@ -77,6 +89,7 @@ header {
   width: 35%;
   height: auto;
   padding: 1%;
+  margin-left: 40%;
   text-align: start;
   border-radius: 5px;
 }
