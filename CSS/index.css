@@ -153,8 +153,13 @@ footer {
   margin-left: 22.5%;
 }
 
-.contact {
+.footer-fonts .contact {
   width: 17%;
+  margin-right: 20%;
+}
+
+.contact {
+  width: 15%;
   margin-right: 20%;
 }
 
@@ -166,6 +171,10 @@ footer {
   display: flex;
   justify-content: space-evenly;
   width: 7%;
+}
+
+.footer-fonts:hover i {
+  cursor: pointer;
 }
 
 .button {
